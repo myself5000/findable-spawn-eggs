@@ -1,0 +1,1 @@
+give @s minecraft:netherite_sword{Unbreakable:1b,Enchantments:[{id:"minecraft:sharpness",lvl:3000}]} 1

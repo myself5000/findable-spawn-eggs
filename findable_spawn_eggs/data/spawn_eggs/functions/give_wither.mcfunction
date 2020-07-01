@@ -1,0 +1,1 @@
+give @s minecraft:enderman_spawn_egg{display:{Name:'{"text":"wither Spawn Egg"}'},EntityTag:{id:"wither"}} 1

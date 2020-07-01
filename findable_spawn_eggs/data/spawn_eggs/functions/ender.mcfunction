@@ -1,0 +1,1 @@
+execute if entity @s[nbt={Dimention:0}] run function spawn_eggs:ender_over

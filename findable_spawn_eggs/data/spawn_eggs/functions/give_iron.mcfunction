@@ -1,0 +1,1 @@
+give @s minecraft:polar_bear_spawn_egg{display:{Name:'{"text":"Iron Golem Spawn Egg"}'},EntityTag:{id:"iron_golem"}} 1

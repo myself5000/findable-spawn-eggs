@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools":[
+      {
+       "rolls":1,
+       "entries":[
+        {
+         "type": "minecraft:item",
+         "name": "minecraft:elytra"
+	    }
+	   ]
+	  },
+      {
+      
+      "rolls":1,
+       "entries":[
+        {
+         "type": "item",
+         "name": "minecraft:enderman_spawn_egg",
+         "functions":[
+           {
+             "function": "set_nbt",
+             "tag": "{\"EntityTag\":{\"id\":\"ender_dragon\"}}"
+		       },
+           {
+             "function": "set_name",
+             "name":{
+               "text": "ender dragon spawn egg",
+               "color": "gray"
+			       }
+           },
+           {
+             "function": "minecraft:set_lore",
+             "lore": [
+               "in development"
+             ],
+             "entity": "this"
+           }
+		      ]
+	    	}
+	    ],
+       "conditions":[
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.09
+	    	}  
+	    ]
+	  }
+      
+  ]
+}

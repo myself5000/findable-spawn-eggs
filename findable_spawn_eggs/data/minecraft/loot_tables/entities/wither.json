@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:entity",
+  "pools":[
+    {
+      "rolls":1,
+       "entries":[
+        {
+         "type": "item",
+         "name": "minecraft:enderman_spawn_egg",
+         "functions":[
+           {
+             "function": "set_nbt",
+             "tag": "{EntityTag:{id:\"wither\"}}"
+		       },
+           {
+             "function": "set_name",
+             "name":{
+               "text": "wither spawn egg",
+               "color": "gray"
+			       }
+		       }
+		      ]
+	    	}
+	    ],
+       "conditions":[
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5
+	    	}  
+	    ]
+	  }
+  ]
+}
